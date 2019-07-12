@@ -29,9 +29,6 @@ public class VendingMachine {
         vendingState.selectOrder(order);
     }
 
-    public VendingState getHasMoney() {
-        return hasMoney;
-    }
 
     public VendingState getNoMoney() {
         return noMoney;
